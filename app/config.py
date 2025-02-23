@@ -12,4 +12,4 @@ class Config:
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SECRET_KEY = os.getenv("SECRET_KEY")
-    SHOPIFY_SHARED_SECRET = os.getenv("SHOPIFY_SHARED_SECRET")  # 🔒 Shopify HMAC secret
+    API_KEY = os.getenv("API_KEY")  # 🔒 Load API Key from environment variables
